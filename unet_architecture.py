@@ -209,4 +209,4 @@ for epoch in range(num_epochs):
 
 
 stop=time.time()
-print("le temps d'éxécution est : ", stop-start)
+print("time execution is : ", stop-start)

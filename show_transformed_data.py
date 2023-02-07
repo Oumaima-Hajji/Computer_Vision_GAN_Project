@@ -12,8 +12,8 @@ import numpy as np
 train_dataset_path = 'train data path'
 test_dataset_path = 'train data path'
 
-os.listdir('VirtualEnv2\GomezData')
-training_dataset_path = 'VirtualEnv2\GomezData'
+os.listdir('path')
+training_dataset_path = 'path'
 training_transforms = transforms.Compose([transforms.Resize(250,250),
 transforms.ToTensor()
 ])
